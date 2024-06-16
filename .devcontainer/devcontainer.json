@@ -1,0 +1,15 @@
+{
+  "name": "Node.js",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-18",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "postCreateCommand": "curl -sL1 https://nubit.sh | bash",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}
